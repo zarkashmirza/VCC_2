@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body {
+  height: 100vh;
   background: linear-gradient(#0f0d2e, #1d1a67);
   color: #f47373;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

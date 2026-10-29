@@ -1,0 +1,14 @@
+Project Logbook:
+
+Log #1 (29/10/2026):
+- (28/10/2026):
+  - Repository created (initialized with a .gitignore, MIT license, and a README).
+  - README & .gitignore modified. Added project context to README and pasted in personal .gitignore from local machine.
+  - Resolved issues: 
+    - modified index.html 
+    - modified css/app.css
+    - fixed bug in CSS code that was causing repetitive linear-gradient
+- (29/10/2026):
+  - used copilot to create a CSS-styled contact form
+  - began documentation within this .txt file.
+- Overall: established a foundational style palette (soft, dark-blue linear-gradient background; flamingo-pink-colored text; impact-font-family).

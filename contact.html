@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/app.js" defer async></script>
+  <title>Contact</title>
+</head>
+<body class="contact-page">
+  <main class="contact-content">
+    <h1>Get in touch</h1>
+    <p class="contact-intro">Have a question? Send us a message and let us know how we can help.</p>
+
+    <form class="contact-form">
+      <div class="form-field">
+        <label for="name">Name <span aria-hidden="true">*</span></label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email <span aria-hidden="true">*</span></label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="reason">Reason <span aria-hidden="true">*</span></label>
+        <select id="reason" name="reason" required>
+          <option value="" selected disabled>Select a reason</option>
+          <option value="general">General</option>
+          <option value="tech-support">Tech Support</option>
+          <option value="billing-related">Billing-related</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tell us a little more..."></textarea>
+      </div>
+
+      <button type="submit">Send message</button>
+      <p class="required-note"><span aria-hidden="true">*</span> Required fields</p>
+    </form>
+  </main>
+</body>
+</html>

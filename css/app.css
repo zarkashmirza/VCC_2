@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#0f0d2e, #1d1a67);
+  color: #f47373;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.2rem;
+}
+h1, h2 {
+  padding: 21px;
+}
+p {
+  padding: 10px 21px;
+}

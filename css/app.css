@@ -17,3 +17,105 @@ h1, h2 {
 p {
   padding: 10px 21px;
 }
+
+.contact-page {
+  min-height: 100vh;
+  height: auto;
+  padding: 48px 20px;
+  display: grid;
+  place-items: center;
+}
+.contact-content {
+  width: min(100%, 620px);
+}
+.contact-content h1 {
+  padding: 0 0 8px;
+  color: #f47373;
+  font-size: clamp(2rem, 6vw, 3rem);
+  letter-spacing: 0.08rem;
+  text-align: center;
+}
+.contact-intro {
+  margin-bottom: 24px;
+  color: #e2e0ff;
+  letter-spacing: 0.04rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.contact-form {
+  padding: clamp(22px, 5vw, 36px);
+  border: 1px solid rgb(244 115 115 / 35%);
+  border-radius: 18px;
+  background: rgb(15 13 46 / 78%);
+  box-shadow: 0 20px 55px rgb(5 4 25 / 35%);
+}
+.form-field {
+  margin-bottom: 20px;
+}
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #f6f4ff;
+  font-size: 0.95rem;
+  letter-spacing: 0.08rem;
+}
+.form-field label span,
+.required-note span {
+  color: #f47373;
+}
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #625e9d;
+  border-radius: 9px;
+  outline: none;
+  background: #211e5a;
+  color: #fff;
+  font: 1rem Arial, sans-serif;
+  letter-spacing: 0.02rem;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.form-field textarea {
+  min-height: 140px;
+  resize: vertical;
+  line-height: 1.5;
+}
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: #b6b3d4;
+}
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: #f47373;
+  box-shadow: 0 0 0 3px rgb(244 115 115 / 20%);
+}
+.contact-form button {
+  width: 100%;
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 9px;
+  background: #f47373;
+  color: #190f3d;
+  cursor: pointer;
+  font: 700 1rem Arial, sans-serif;
+  letter-spacing: 0.08rem;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+.contact-form button:hover {
+  background: #ff9292;
+  transform: translateY(-1px);
+}
+.contact-form button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.required-note {
+  padding: 14px 0 0;
+  color: #b6b3d4;
+  font: 0.8rem Arial, sans-serif;
+  letter-spacing: 0.02rem;
+  text-align: right;
+}
